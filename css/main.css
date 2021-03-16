@@ -45,7 +45,7 @@ html {
 
 #home img {
   max-width: 100%;
-  height: auto;
+  height: 225px;
   border-radius: 100%;
 }
 #home .name h2 {
@@ -97,9 +97,13 @@ html {
 .courses .course .course-image {
   margin-right: 0.5rem;
   position: relative;
+  
 }
 .courses .course .course-image img {
   border-radius: 5px;
+  width: 240px;
+  height: 135px;
+ 
 }
 .courses .course .course-image span {
   background: red;

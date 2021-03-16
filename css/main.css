@@ -58,21 +58,21 @@ html {
 
 /* Training */
 
-#training {
+#Used {
   color: #fff;
   padding: 1rem;
 }
-#training .items {
+#Used .items {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-#training .items .item {
+#Used .items .item {
   width: 33%;
   text-align: center;
   padding: 0.5rem;
 }
-#training .items .item:hover {
+#Used .items .item:hover {
   color: red;
   opacity: 0.6;
 }

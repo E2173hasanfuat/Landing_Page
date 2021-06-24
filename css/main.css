@@ -56,56 +56,56 @@ html {
   font-style: italic;
 }
 
-/* Training */
+/* Items*/
 
-#Used {
+#training {
   color: #fff;
   padding: 1rem;
 }
-#Used .items {
+#training .items {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-#Used .items .item {
+#training .items .item {
   width: 33%;
   text-align: center;
   padding: 0.5rem;
 }
-#Used .items .item:hover {
+#training .items .item:hover {
   color: red;
   opacity: 0.6;
 }
-/* Courses */
+/* Products */
 
-#courses {
+#products {
   color: #333;
   padding: 1rem;
 }
-.courses {
+.products {
   display: flex;
   flex-direction: column;
   padding: 1rem;
 }
 
-.courses .course {
+.products .product {
   display: flex;
   padding: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
-.courses .course .course-image {
+.products .product .product-image {
   margin-right: 0.5rem;
   position: relative;
   
 }
-.courses .course .course-image img {
+.products .product .product-image img {
   border-radius: 5px;
   width: 240px;
   height: 135px;
  
 }
-.courses .course .course-image span {
+.products .product .product-image span {
   background: red;
   padding: 0.25rem;
   color: #fff;
@@ -114,22 +114,22 @@ html {
   top: 15px;
   left: 0;
 }
-.courses .course .course-info .title {
+.products .product .product-info .title {
   letter-spacing: 1.2px;
   font-weight: 700;
   margin-bottom: 0.25rem;
 }
-.courses .course .course-info .description {
+.products .product .product-info .description {
   letter-spacing: 1.2px;
   margin-bottom: 0.25rem;
   opacity: 0.6;
 }
-.courses .course .course-info .instructor {
+.products .product .product-info .brand {
   font-size: 0.8rem;
   margin-bottom: 0.25rem;
   opacity: 0.6;
 }
-.courses .course .course-info .rating {
+.products .product .product-info .rating {
   font-size: 0.8rem;
   margin-bottom: 0.25rem;
   opacity: 0.6;
